@@ -1,8 +1,8 @@
 <p align="center">
- <img src="https://img.shields.io/badge/ova-3.0-success.svg" alt="Build Status">
+<img src="https://img.shields.io/badge/Ova-1.0-success.svg" alt="Build Status">
  <img src="https://img.shields.io/badge/Spring%20Cloud-2020-blue.svg" alt="Coverage Status">
  <img src="https://img.shields.io/badge/Spring%20Boot-2.4-blue.svg" alt="Downloads">
- <img src="https://img.shields.io/github/license/ova-mesh/ova"/>
+ <img src="https://img.shields.io/github/license/pig-mesh/pig"/>
 </p>
    
    
