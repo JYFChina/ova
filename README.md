@@ -1,8 +1,8 @@
 <p align="center">
- <img src="https://img.shields.io/badge/Pig-3.0-success.svg" alt="Build Status">
+ <img src="https://img.shields.io/badge/ova-3.0-success.svg" alt="Build Status">
  <img src="https://img.shields.io/badge/Spring%20Cloud-2020-blue.svg" alt="Coverage Status">
  <img src="https://img.shields.io/badge/Spring%20Boot-2.4-blue.svg" alt="Downloads">
- <img src="https://img.shields.io/github/license/pig-mesh/pig"/>
+ <img src="https://img.shields.io/github/license/ova-mesh/ova"/>
 </p>
    
    
@@ -28,45 +28,39 @@
 ### 模块说明
 
 ```lua
-pig-ui  -- https://gitee.com/log4j/pig-ui
+ova-ui  -- https://gitee.com/log4j/ova-ui
 
-pig
-├── pig-auth -- 授权服务提供[3000]
-└── pig-common -- 系统公共模块
-     ├── pig-common-core -- 公共工具类核心包
-     ├── pig-common-datasource -- 动态数据源包
-     ├── pig-common-job -- xxl-job 封装
-     ├── pig-common-log -- 日志服务
-     ├── pig-common-mybatis -- mybatis 扩展封装
-     ├── pig-common-security -- 安全工具类
-     ├── pig-common-swagger -- 接口文档
-     ├── pig-common-feign -- feign 扩展封装
-     └── pig-common-test -- oauth2.0 单元测试扩展封装
-├── pig-register -- Nacos Server[8848]
-├── pig-gateway -- Spring Cloud Gateway网关[9999]
-└── pig-upms -- 通用用户权限管理模块
-     └── pig-upms-api -- 通用用户权限管理系统公共api模块
-     └── pig-upms-biz -- 通用用户权限管理系统业务处理模块[4000]
-└── pig-visual
-     └── pig-monitor -- 服务监控 [5001]
-     ├── pig-codegen -- 图形化代码生成 [5002]
-     ├── pig-sentinel-dashboard -- 流量高可用 [5003]
-     └── pig-xxl-job-admin -- 分布式定时任务管理台 [5004]
+ova
+├── ova-auth -- 授权服务提供[3000]
+└── ova-common -- 系统公共模块
+     ├── ova-common-core -- 公共工具类核心包
+     ├── ova-common-datasource -- 动态数据源包
+     ├── ova-common-job -- xxl-job 封装
+     ├── ova-common-log -- 日志服务
+     ├── ova-common-mybatis -- mybatis 扩展封装
+     ├── ova-common-security -- 安全工具类
+     ├── ova-common-swagger -- 接口文档
+     ├── ova-common-feign -- feign 扩展封装
+     └── ova-common-test -- oauth2.0 单元测试扩展封装
+├── ova-register -- Nacos Server[8848]
+├── ova-gateway -- Spring Cloud Gateway网关[9999]
+└── ova-upms -- 通用用户权限管理模块
+     └── ova-upms-api -- 通用用户权限管理系统公共api模块
+     └── ova-upms-biz -- 通用用户权限管理系统业务处理模块[4000]
+└── ova-visual
+     └── ova-monitor -- 服务监控 [5001]
+     ├── ova-codegen -- 图形化代码生成 [5002]
+     ├── ova-sentinel-dashboard -- 流量高可用 [5003]
+     └── ova-xxl-job-admin -- 分布式定时任务管理台 [5004]
 ```
 
-## 文档视频
 
-[文档视频 wiki.pig4cloud.com](https://wiki.pig4cloud.com)
-
-[PIGX 在线体验 pigx.pig4cloud.com](http://pigx.pig4cloud.com)
-
-[产品白皮书 paper.pig4cloud.com](https://paper.pig4cloud.com)
 
 ## 快速开始
 
 ### 本地开发 运行
 
-pig 提供了详细的[部署文档 wiki.pig4cloud.com](https://www.yuque.com/pig4cloud/pig/vsdox9)，包括开发环境安装、服务端代码运行、前端代码运行等。
+ova 提供了详细的包括开发环境安装、服务端代码运行、前端代码运行等。
 
 请务必**完全按照**文档部署运行章节 进行操作，减少踩坑弯路！！
 
@@ -74,14 +68,14 @@ pig 提供了详细的[部署文档 wiki.pig4cloud.com](https://www.yuque.com/pi
 
 ```
 # 下载并运行服务端代码
-git clone https://gitee.com/log4j/pig.git
+git clone https://gitee.com/log4j/ova.git
 
-cd pig && mvn clean install && docker-compose up -d
+cd ova && mvn clean install && docker-compose up -d
 
 # 下载并运行前端UI
-git clone https://gitee.com/log4j/pig-ui.git
+git clone https://gitee.com/log4j/ova-ui.git
 
-cd pig-ui && npm install -g cnpm --registry=https://registry.npm.taobao.org
+cd ova-ui && npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 npm run build:docker && docker-compose up -d
 ```
@@ -89,53 +83,40 @@ npm run build:docker && docker-compose up -d
 ### 快速构架微服务
 
 ```bash
-<!-- pig-gen archetype -->
+<!-- ova-gen archetype -->
 # 在空文件夹执行以下命令，注意 windows 下  \ 修改成 ^
 mvn archetype:generate \
-       -DgroupId=com.pig4cloud \
+       -DgroupId=com.ova4cloud \
        -DartifactId=demo \
        -Dversion=1.0.0-SNAPSHOT \
-       -Dpackage=com.pig4cloud.pig.demo \
-       -DarchetypeGroupId=com.pig4cloud.archetype \
-       -DarchetypeArtifactId=pig-gen \
+       -Dpackage=com.ova4cloud.ova.demo \
+       -DarchetypeGroupId=com.ova4cloud.archetype \
+       -DarchetypeArtifactId=ova-gen \
        -DarchetypeVersion=3.1.2 \
        -DarchetypeCatalog=local
 ```
 
-## 免费公开课
 
-<table>
-  <tr>
-    <td><a href="https://www.bilibili.com/video/av45084065" target="_blank"><img src="https://gitee.com/pig4cloud/oss/raw/master/2020-9/20200901133006.png"></a></td>
-    <td><a href="https://www.bilibili.com/video/av77344954" target="_blank"><img src="https://gitee.com/pig4cloud/oss/raw/master/2020-9/20200901133059.png"></a></td>
-  </tr>
-    <tr>
-    <td><a href="https://www.bilibili.com/video/BV1J5411476V" target="_blank"><img src="https://gitee.com/pig4cloud/oss/raw/master/2020-9/20200901133114.png"></a></td>
-    <td><a href="https://www.bilibili.com/video/BV14p4y197K5" target="_blank"><img src="https://gitee.com/pig4cloud/oss/raw/master/2020-9/20200901133124.png"></a></td>
-  </tr>
-</table>
 
-## 微信群 [禁广告]
 
-![](https://gitee.com/pig4cloud/oss/raw/master/2020-9/20200901133142.png)
 
 ## 开源共建
 
 ### 开源协议
 
-pig 开源软件遵循 [Apache 2.0 协议](https://www.apache.org/licenses/LICENSE-2.0.html)。
+ova 开源软件遵循 [Apache 2.0 协议](https://www.apache.org/licenses/LICENSE-2.0.html)。
 允许商业使用，但务必保留类作者、Copyright 信息。
 
-![](https://gitee.com/pig4cloud/oss/raw/master/2020-10-9/1602229452602-image.png)
+![](https://gitee.com/ova4cloud/oss/raw/master/2020-10-9/1602229452602-image.png)
 
 ### 其他说明
 
 1. 欢迎提交 [PR](https://dwz.cn/2KURd5Vf)，注意对应提交对应 `dev` 分支
 
-2. 欢迎提交 [issue](https://gitee.com/log4j/pig/issues)，请写清楚遇到问题的原因、开发环境、复显步骤。
+2. 欢迎提交 [issue](https://gitee.com/log4j/ova/issues)，请写清楚遇到问题的原因、开发环境、复显步骤。
 
-3. 联系作者 <a href="mailto:pig4cloud@qq.com">pig4cloud@qq.com</a>
+3. 联系作者 <a href="mailto:ova4cloud@qq.com">ova4cloud@qq.com</a>
 
 
-[![Stargazers over time](https://whnb.wang/img/log4j/pig?e=604800)](https://whnb.wang/log4j/pig?e=604800)
+[![Stargazers over time](https://whnb.wang/img/log4j/ova?e=604800)](https://whnb.wang/log4j/ova?e=604800)
 
