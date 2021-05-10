@@ -8,9 +8,10 @@
         <groupId>com.ova4cloud</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <description>ova 通用用户权限管理系统公共api模块</description>
+
     <artifactId>ova-upms-api</artifactId>
     <packaging>jar</packaging>
+    <description>ova 通用用户权限管理系统公共api模块</description>
 
 
     <dependencies>
