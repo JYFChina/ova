@@ -16,7 +16,7 @@
 
 package com.ova4cloud.ova.common.security.component;
 
-import com.pig4cloud.pig.common.security.exception.*;
+import com.ova4cloud.ova.common.security.exception.*;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;

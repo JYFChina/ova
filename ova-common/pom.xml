@@ -11,9 +11,12 @@
 
     <artifactId>ova-common</artifactId>
     <packaging>pom</packaging>
+    <description>ova 公共聚合模块</description>
+
     <modules>
         <module>ova-common-security</module>
         <module>ova-common-core</module>
+        <module>ova-common-feign</module>
     </modules>
 
 

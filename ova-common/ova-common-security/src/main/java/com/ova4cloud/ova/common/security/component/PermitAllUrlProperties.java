@@ -18,7 +18,7 @@ package com.ova4cloud.ova.common.security.component;
 
 import cn.hutool.core.util.ReUtil;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;
-import com.pig4cloud.pig.common.security.annotation.Inner;
+import com.ova4cloud.ova.common.security.annotation.Inner;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;

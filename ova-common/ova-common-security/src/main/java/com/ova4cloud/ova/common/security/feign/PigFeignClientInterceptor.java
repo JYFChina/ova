@@ -17,7 +17,7 @@
 package com.ova4cloud.ova.common.security.feign;
 
 import cn.hutool.core.collection.CollUtil;
-import com.pig4cloud.pig.common.core.constant.SecurityConstants;
+import com.ova4cloud.ova.common.core.constant.SecurityConstants;
 import feign.RequestTemplate;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.commons.security.AccessTokenContextRelay;

@@ -23,9 +23,9 @@ package com.ova4cloud.ova.common.security.component;
 
 import cn.hutool.http.HttpStatus;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.pig4cloud.pig.common.core.constant.CommonConstants;
-import com.pig4cloud.pig.common.core.exception.PigDeniedException;
-import com.pig4cloud.pig.common.core.util.R;
+import com.ova4cloud.ova.common.core.constant.CommonConstants;
+import com.ova4cloud.ova.common.core.exception.PigDeniedException;
+import com.ova4cloud.ova.common.core.util.R;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

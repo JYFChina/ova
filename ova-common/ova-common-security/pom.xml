@@ -29,10 +29,10 @@
             <artifactId>spring-security-oauth2-autoconfigure</artifactId>
         </dependency>
         <!--UPMS API-->
-        <!--<dependency>-->
-            <!--<groupId>com.ova4cloud</groupId>-->
-            <!--<artifactId>ova-upms-api</artifactId>-->
-            <!--<version>1.0-SNAPSHOT</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>com.ova4cloud</groupId>
+            <artifactId>ova-upms-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

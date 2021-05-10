@@ -19,8 +19,8 @@ package com.ova4cloud.ova.common.security.component;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
-import com.pig4cloud.pig.common.core.constant.CommonConstants;
-import com.pig4cloud.pig.common.security.exception.PigAuth2Exception;
+import com.ova4cloud.ova.common.core.constant.CommonConstants;
+import com.ova4cloud.ova.common.security.exception.PigAuth2Exception;
 import lombok.SneakyThrows;
 
 /**

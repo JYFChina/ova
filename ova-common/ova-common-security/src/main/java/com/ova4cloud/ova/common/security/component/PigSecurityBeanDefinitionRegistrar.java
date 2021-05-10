@@ -16,7 +16,7 @@
 
 package com.ova4cloud.ova.common.security.component;
 
-import com.pig4cloud.pig.common.core.constant.SecurityConstants;
+import com.ova4cloud.ova.common.core.constant.SecurityConstants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.GenericBeanDefinition;

@@ -16,7 +16,7 @@
 
 package com.ova4cloud.ova.common.core.util;
 
-import com.pig4cloud.pig.common.core.constant.CommonConstants;
+import com.ova4cloud.ova.common.core.constant.CommonConstants;
 import lombok.*;
 import lombok.experimental.Accessors;
 

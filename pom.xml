@@ -14,11 +14,14 @@
     <artifactId>ova</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+
     <modules>
         <module>ova-auth</module>
         <module>ova-common</module>
         <module>ova-gateway</module>
         <module>ova-register</module>
+        <module>ova-upms</module>
     </modules>
     <properties>
         <spring-boot.version>2.4.5</spring-boot.version>

@@ -18,7 +18,7 @@ package com.ova4cloud.ova.common.core.util;
 
 import cn.hutool.core.codec.Base64;
 import cn.hutool.json.JSONUtil;
-import com.pig4cloud.pig.common.core.exception.CheckedException;
+import com.ova4cloud.ova.common.core.exception.CheckedException;
 import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;

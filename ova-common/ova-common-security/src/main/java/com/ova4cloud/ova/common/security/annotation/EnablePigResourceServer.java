@@ -16,8 +16,8 @@
 
 package com.ova4cloud.ova.common.security.annotation;
 
-import com.pig4cloud.pig.common.security.component.PigResourceServerAutoConfiguration;
-import com.pig4cloud.pig.common.security.component.PigSecurityBeanDefinitionRegistrar;
+import com.ova4cloud.ova.common.security.component.PigResourceServerAutoConfiguration;
+import com.ova4cloud.ova.common.security.component.PigSecurityBeanDefinitionRegistrar;
 import org.springframework.context.annotation.Import;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;

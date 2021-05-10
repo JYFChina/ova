@@ -17,7 +17,7 @@
 package com.ova4cloud.ova.common.security.exception;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.pig4cloud.pig.common.security.component.PigAuth2ExceptionSerializer;
+import com.ova4cloud.ova.common.security.component.PigAuth2ExceptionSerializer;
 
 /**
  * @author lengleng
