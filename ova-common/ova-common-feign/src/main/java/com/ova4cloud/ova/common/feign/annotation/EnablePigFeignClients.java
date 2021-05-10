@@ -47,7 +47,7 @@ public @interface EnablePigFeignClients {
 	 * package names.
 	 * @return the array of 'basePackages'.
 	 */
-	String[] basePackages() default { "com.pig4cloud.pig" };
+	String[] basePackages() default { "com.ova4cloud.ova" };
 
 	/**
 	 * Type-safe alternative to {@link #basePackages()} for specifying the packages to

@@ -1,7 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.ova4cloud.ova.admin.api.feign.fallback.RemoteUserServiceFallbackImpl,\
-  com.ova4cloud.ova.admin.api.feign.fallback.RemoteLogServiceFallbackImpl,\
-  com.ova4cloud.ova.admin.api.feign.fallback.RemoteTokenServiceFallbackImpl,\
-  com.ova4cloud.ova.admin.api.feign.factory.RemoteUserServiceFallbackFactory,\
-  com.ova4cloud.ova.admin.api.feign.factory.RemoteLogServiceFallbackFactory,\
-  com.ova4cloud.ova.admin.api.feign.factory.RemoteTokenServiceFallbackFactory

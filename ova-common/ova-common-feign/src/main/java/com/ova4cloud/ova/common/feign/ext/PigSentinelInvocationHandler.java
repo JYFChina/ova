@@ -24,7 +24,7 @@ import com.alibaba.csp.sentinel.SphU;
 import com.alibaba.csp.sentinel.Tracer;
 import com.alibaba.csp.sentinel.context.ContextUtil;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
-import com.pig4cloud.pig.common.core.util.R;
+import com.ova4cloud.ova.common.core.util.R;
 import feign.Feign;
 import feign.InvocationHandlerFactory;
 import feign.MethodMetadata;

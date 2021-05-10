@@ -17,6 +17,7 @@
         <module>ova-common-security</module>
         <module>ova-common-core</module>
         <module>ova-common-feign</module>
+        <module>ova-common-swagger</module>
     </modules>
 
 

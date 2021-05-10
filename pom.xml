@@ -114,6 +114,11 @@
             </dependency>
             <dependency>
                 <groupId>com.ova4cloud</groupId>
+                <artifactId>ova-common-swagger</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ova4cloud</groupId>
                 <artifactId>ova-upms-api</artifactId>
                 <version>${project.version}</version>
             </dependency>

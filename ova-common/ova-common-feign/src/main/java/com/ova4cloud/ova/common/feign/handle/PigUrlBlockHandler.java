@@ -20,7 +20,7 @@ import cn.hutool.http.ContentType;
 import cn.hutool.json.JSONUtil;
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.BlockExceptionHandler;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
-import com.pig4cloud.pig.common.core.util.R;
+import com.ova4cloud.ova.common.core.util.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 
