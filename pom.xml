@@ -10,18 +10,13 @@
         <version>3.1.2</version>
     </parent>
 
+
     <groupId>com.ova4cloud</groupId>
     <artifactId>ova</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <modules>
-        <module>ova-auth</module>
-        <module>ova-common</module>
-        <module>ova-gateway</module>
-        <module>ova-register</module>
-        <module>ova-upms</module>
-    </modules>
+
     <properties>
         <spring-boot.version>2.4.5</spring-boot.version>
         <spring-cloud.version>2020.0.2</spring-cloud.version>
@@ -90,8 +85,38 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <modules>
+        <module>ova-auth</module>
+        <module>ova-common</module>
+        <module>ova-gateway</module>
+        <module>ova-register</module>
+        <module>ova-upms</module>
+    </modules>
+
     <dependencyManagement>
+
         <dependencies>
+            <dependency>
+                <groupId>com.ova4cloud</groupId>
+                <artifactId>ova-common-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ova4cloud</groupId>
+                <artifactId>ova-common-feign</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ova4cloud</groupId>
+                <artifactId>ova-common-security</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ova4cloud</groupId>
+                <artifactId>ova-upms-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <!-- spring boot 依赖 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -120,7 +145,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>${project.name}</finalName>
+        <finalName>${project.artifactId}</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
