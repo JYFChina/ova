@@ -5,9 +5,10 @@
  <img src="https://img.shields.io/badge/license-Apache 2.0-519dd9.svg"/>
 </p>
    
-   
+
 ## 系统说明
 
+- 参照 Pig 开源项目 ，参考搭建
 - 基于 Spring Cloud 2020 、Spring Boot 2.4、 OAuth2 的 RBAC **权限管理系统**
 - 基于数据驱动视图的理念封装 element-ui，即使没有 vue 的使用经验也能快速上手
 - 提供对常见容器化支持 Docker、Kubernetes、Rancher2 支持
