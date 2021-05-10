@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.ova4cloud.ova.common.core.config.JacksonConfiguration,\
+  com.ova4cloud.ova.common.core.config.RedisTemplateConfiguration,\
+  com.ova4cloud.ova.common.core.config.RestTemplateConfiguration,\
+  com.ova4cloud.ova.common.core.util.SpringContextHolder,\
+  com.ova4cloud.ova.common.core.config.WebMvcConfiguration
