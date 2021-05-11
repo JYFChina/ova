@@ -16,7 +16,7 @@
 
 package com.ova4cloud.ova.gateway.handler;
 
-import com.pig4cloud.captcha.ArithmeticCaptcha;
+import com.ova4cloud.captcha.ArithmeticCaptcha;
 import com.ova4cloud.ova.common.core.constant.CacheConstants;
 import com.ova4cloud.ova.common.core.constant.SecurityConstants;
 import lombok.AllArgsConstructor;
