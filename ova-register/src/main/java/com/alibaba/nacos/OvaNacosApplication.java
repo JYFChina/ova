@@ -32,11 +32,11 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @Slf4j
 @EnableScheduling
 @SpringBootApplication
-public class PigNacosApplication {
+public class OvaNacosApplication {
 
 	public static void main(String[] args) {
 		if (initEnv()) {
-			SpringApplication.run(PigNacosApplication.class, args);
+			SpringApplication.run(OvaNacosApplication.class, args);
 		}
 	}
 
