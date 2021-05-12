@@ -92,6 +92,7 @@
         <module>ova-gateway</module>
         <module>ova-register</module>
         <module>ova-upms</module>
+        <module>ova-visual</module>
     </modules>
 
     <dependencyManagement>
