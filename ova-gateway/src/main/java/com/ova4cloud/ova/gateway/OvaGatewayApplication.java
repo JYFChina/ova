@@ -31,7 +31,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @SpringBootApplication
 public class OvaGatewayApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(OvaGatewayApplication.class, args);
 	}

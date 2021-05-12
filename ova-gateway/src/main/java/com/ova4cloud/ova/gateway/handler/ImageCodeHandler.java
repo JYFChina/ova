@@ -16,7 +16,7 @@
 
 package com.ova4cloud.ova.gateway.handler;
 
-import com.ova4cloud.captcha.ArithmeticCaptcha;
+//import com.pig4cloud.captcha.ArithmeticCaptcha;
 import com.ova4cloud.ova.common.core.constant.CacheConstants;
 import com.ova4cloud.ova.common.core.constant.SecurityConstants;
 import lombok.AllArgsConstructor;
@@ -53,19 +53,19 @@ public class ImageCodeHandler implements HandlerFunction<ServerResponse> {
 
 	@Override
 	public Mono<ServerResponse> handle(ServerRequest serverRequest) {
-		ArithmeticCaptcha captcha = new ArithmeticCaptcha(DEFAULT_IMAGE_WIDTH, DEFAULT_IMAGE_HEIGHT);
-
-		String result = captcha.text();
-
-		// 保存验证码信息
-		String randomStr = serverRequest.queryParam("randomStr").get();
-		redisTemplate.setKeySerializer(new StringRedisSerializer());
-		redisTemplate.opsForValue().set(CacheConstants.DEFAULT_CODE_KEY + randomStr, result,
-				SecurityConstants.CODE_TIME, TimeUnit.SECONDS);
-
+//		ArithmeticCaptcha captcha = new ArithmeticCaptcha(DEFAULT_IMAGE_WIDTH, DEFAULT_IMAGE_HEIGHT);
+//
+//		String result = captcha.text();
+//
+//		// 保存验证码信息
+//		String randomStr = serverRequest.queryParam("randomStr").get();
+//		redisTemplate.setKeySerializer(new StringRedisSerializer());
+//		redisTemplate.opsForValue().set(CacheConstants.DEFAULT_CODE_KEY + randomStr, result,
+//				SecurityConstants.CODE_TIME, TimeUnit.SECONDS);
+//
 		// 转换流信息写出
 		FastByteArrayOutputStream os = new FastByteArrayOutputStream();
-		captcha.out(os);
+//		captcha.out(os);
 
 		return ServerResponse.status(HttpStatus.OK).contentType(MediaType.IMAGE_JPEG)
 				.body(BodyInserters.fromResource(new ByteArrayResource(os.toByteArray())));
