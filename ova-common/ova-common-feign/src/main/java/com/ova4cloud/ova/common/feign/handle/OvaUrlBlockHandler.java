@@ -36,7 +36,7 @@ import javax.servlet.http.HttpServletResponse;
  * @date 2020-06-11
  */
 @Slf4j
-public class PigUrlBlockHandler implements BlockExceptionHandler {
+public class OvaUrlBlockHandler implements BlockExceptionHandler {
 
 	@Override
 	public void handle(HttpServletRequest request, HttpServletResponse response, BlockException e) throws Exception {

@@ -42,14 +42,14 @@ import java.util.Map;
  * @author lengleng
  * @date 2020/6/9
  */
-public final class PigSentinelFeign {
+public final class OvaSentinelFeign {
 
-	private PigSentinelFeign() {
+	private OvaSentinelFeign() {
 
 	}
 
-	public static PigSentinelFeign.Builder builder() {
-		return new PigSentinelFeign.Builder();
+	public static OvaSentinelFeign.Builder builder() {
+		return new OvaSentinelFeign.Builder();
 	}
 
 	public static final class Builder extends Feign.Builder implements ApplicationContextAware {
@@ -66,7 +66,7 @@ public final class PigSentinelFeign {
 		}
 
 		@Override
-		public PigSentinelFeign.Builder contract(Contract contract) {
+		public OvaSentinelFeign.Builder contract(Contract contract) {
 			this.contract = contract;
 			return this;
 		}
@@ -91,16 +91,16 @@ public final class PigSentinelFeign {
 					FallbackFactory fallbackFactoryInstance;
 					if (void.class != fallback) {
 						fallbackInstance = getFromContext(beanName, "fallback", fallback, target.type());
-						return new PigSentinelInvocationHandler(target, dispatch,
+						return new OvaSentinelInvocationHandler(target, dispatch,
 								new FallbackFactory.Default(fallbackInstance));
 					}
 
 					if (void.class != fallbackFactory) {
 						fallbackFactoryInstance = (FallbackFactory) getFromContext(beanName, "fallbackFactory",
 								fallbackFactory, FallbackFactory.class);
-						return new PigSentinelInvocationHandler(target, dispatch, fallbackFactoryInstance);
+						return new OvaSentinelInvocationHandler(target, dispatch, fallbackFactoryInstance);
 					}
-					return new PigSentinelInvocationHandler(target, dispatch);
+					return new OvaSentinelInvocationHandler(target, dispatch);
 				}
 
 				private Object getFromContext(String name, String type, Class fallbackType, Class targetType) {

@@ -38,7 +38,7 @@ import org.springframework.context.annotation.Scope;
  */
 @Configuration(proxyBeanMethods = false)
 @AutoConfigureBefore(SentinelFeignAutoConfiguration.class)
-public class PigFeignAutoConfiguration {
+public class OvaFeignAutoConfiguration {
 
 	@Bean
 	@Scope("prototype")

@@ -48,7 +48,7 @@ import static feign.Util.checkNotNull;
  * @date 2020/6/9
  */
 @Slf4j
-public class PigSentinelInvocationHandler implements InvocationHandler {
+public class OvaSentinelInvocationHandler implements InvocationHandler {
 
 	public static final String EQUALS = "equals";
 
@@ -64,7 +64,7 @@ public class PigSentinelInvocationHandler implements InvocationHandler {
 
 	private Map<Method, Method> fallbackMethodMap;
 
-	PigSentinelInvocationHandler(Target<?> target, Map<Method, InvocationHandlerFactory.MethodHandler> dispatch,
+	OvaSentinelInvocationHandler(Target<?> target, Map<Method, InvocationHandlerFactory.MethodHandler> dispatch,
 			FallbackFactory fallbackFactory) {
 		this.target = checkNotNull(target, "target");
 		this.dispatch = checkNotNull(dispatch, "dispatch");
@@ -72,7 +72,7 @@ public class PigSentinelInvocationHandler implements InvocationHandler {
 		this.fallbackMethodMap = toFallbackMethod(dispatch);
 	}
 
-	PigSentinelInvocationHandler(Target<?> target, Map<Method, InvocationHandlerFactory.MethodHandler> dispatch) {
+	OvaSentinelInvocationHandler(Target<?> target, Map<Method, InvocationHandlerFactory.MethodHandler> dispatch) {
 		this.target = checkNotNull(target, "target");
 		this.dispatch = checkNotNull(dispatch, "dispatch");
 	}
@@ -165,7 +165,7 @@ public class PigSentinelInvocationHandler implements InvocationHandler {
 	@Override
 	public boolean equals(Object obj) {
 		if (obj instanceof SentinelInvocationHandler) {
-			PigSentinelInvocationHandler other = (PigSentinelInvocationHandler) obj;
+			OvaSentinelInvocationHandler other = (OvaSentinelInvocationHandler) obj;
 			return target.equals(other.target);
 		}
 		return false;
