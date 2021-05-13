@@ -27,7 +27,7 @@ import org.springframework.stereotype.Component;
  */
 @Slf4j
 @Component
-public class PigAuthenticationSuccessEventHandler extends AbstractAuthenticationSuccessEventHandler {
+public class OvaAuthenticationSuccessEventHandler extends AbstractAuthenticationSuccessEventHandler {
 
 	/**
 	 * 处理登录成功方法

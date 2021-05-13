@@ -60,7 +60,7 @@ import java.util.Map;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/token")
-public class PigTokenEndpoint {
+public class OvaTokenEndpoint {
 
 	private final ClientDetailsService clientDetailsService;
 
