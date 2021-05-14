@@ -1,4 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.ova4cloud.ova.common.security.service.PigUserDetailsServiceImpl,\
-  com.ova4cloud.ova.common.security.component.PigSecurityInnerAspect
+  com.ova4cloud.ova.common.security.service.OvaUserDetailsServiceImpl,\
+  com.ova4cloud.ova.common.security.component.OvaSecurityInnerAspect
 
