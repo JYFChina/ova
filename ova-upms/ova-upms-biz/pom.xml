@@ -10,7 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ova-upms-biz</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+    <modules>
+        <module>ova-upms-test</module>
+    </modules>
 
     <dependencies>
         <!--upms api、model 模块-->
