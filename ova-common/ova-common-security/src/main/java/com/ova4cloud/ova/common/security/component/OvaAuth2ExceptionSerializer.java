@@ -20,7 +20,7 @@ import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
 import com.ova4cloud.ova.common.core.constant.CommonConstants;
-import com.ova4cloud.ova.common.security.exception.PigAuth2Exception;
+import com.ova4cloud.ova.common.security.exception.OvaAuth2Exception;
 import lombok.SneakyThrows;
 
 /**
@@ -29,15 +29,15 @@ import lombok.SneakyThrows;
  * <p>
  * OAuth2 异常格式化
  */
-public class PigAuth2ExceptionSerializer extends StdSerializer<PigAuth2Exception> {
+public class OvaAuth2ExceptionSerializer extends StdSerializer<OvaAuth2Exception> {
 
-	public PigAuth2ExceptionSerializer() {
-		super(PigAuth2Exception.class);
+	public OvaAuth2ExceptionSerializer() {
+		super(OvaAuth2Exception.class);
 	}
 
 	@Override
 	@SneakyThrows
-	public void serialize(PigAuth2Exception value, JsonGenerator gen, SerializerProvider provider) {
+	public void serialize(OvaAuth2Exception value, JsonGenerator gen, SerializerProvider provider) {
 		gen.writeStartObject();
 		gen.writeObjectField("code", CommonConstants.FAIL);
 		gen.writeStringField("msg", value.getMessage());

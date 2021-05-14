@@ -39,7 +39,7 @@ import org.springframework.web.HttpRequestMethodNotSupportedException;
  * @date 2019/2/1 异常处理,重写oauth 默认实现
  */
 @Slf4j
-public class PigWebResponseExceptionTranslator implements WebResponseExceptionTranslator {
+public class OvaWebResponseExceptionTranslator implements WebResponseExceptionTranslator {
 
 	private ThrowableAnalyzer throwableAnalyzer = new DefaultThrowableAnalyzer();
 
@@ -99,7 +99,7 @@ public class PigWebResponseExceptionTranslator implements WebResponseExceptionTr
 		if (e instanceof ClientAuthenticationException) {
 			return new ResponseEntity<>(e, headers, HttpStatus.valueOf(status));
 		}
-		return new ResponseEntity<>(new PigAuth2Exception(e.getMessage(), e.getOAuth2ErrorCode()), headers,
+		return new ResponseEntity<>(new OvaAuth2Exception(e.getMessage(), e.getOAuth2ErrorCode()), headers,
 				HttpStatus.valueOf(status));
 
 	}

@@ -17,7 +17,7 @@
 package com.ova4cloud.ova.common.security.component;
 
 import com.ova4cloud.ova.common.core.constant.SecurityConstants;
-import com.ova4cloud.ova.common.security.service.PigUser;
+import com.ova4cloud.ova.common.security.service.OvaUser;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
@@ -35,7 +35,7 @@ import java.util.Map;
  * <p>
  * 根据checktoken 的结果转化用户信息
  */
-public class PigUserAuthenticationConverter implements UserAuthenticationConverter {
+public class OvaUserAuthenticationConverter implements UserAuthenticationConverter {
 
 	private static final String N_A = "N/A";
 
@@ -69,7 +69,7 @@ public class PigUserAuthenticationConverter implements UserAuthenticationConvert
 			String username = (String) map.get(SecurityConstants.DETAILS_USERNAME);
 			Integer id = (Integer) map.get(SecurityConstants.DETAILS_USER_ID);
 			Integer deptId = (Integer) map.get(SecurityConstants.DETAILS_DEPT_ID);
-			PigUser user = new PigUser(id, deptId, username, N_A, true, true, true, true, authorities);
+			OvaUser user = new OvaUser(id, deptId, username, N_A, true, true, true, true, authorities);
 			return new UsernamePasswordAuthenticationToken(user, N_A, authorities);
 		}
 		return null;

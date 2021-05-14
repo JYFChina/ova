@@ -37,7 +37,7 @@ import java.util.Collections;
  */
 @ConfigurationPropertiesScan
 @ComponentScan("com.ova4cloud.ova.common.security")
-public class PigResourceServerAutoConfiguration {
+public class OvaResourceServerAutoConfiguration {
 
 	@Bean
 	@Primary

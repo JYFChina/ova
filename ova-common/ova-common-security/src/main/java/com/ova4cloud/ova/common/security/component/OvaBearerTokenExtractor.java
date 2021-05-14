@@ -33,7 +33,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Component
 @RequiredArgsConstructor
-public class PigBearerTokenExtractor extends BearerTokenExtractor {
+public class OvaBearerTokenExtractor extends BearerTokenExtractor {
 
 	private final PathMatcher pathMatcher = new AntPathMatcher();
 

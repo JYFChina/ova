@@ -43,7 +43,7 @@ import java.io.PrintWriter;
 @Slf4j
 @Component
 @RequiredArgsConstructor
-public class PigAccessDeniedHandler extends OAuth2AccessDeniedHandler {
+public class OvaAccessDeniedHandler extends OAuth2AccessDeniedHandler {
 
 	private final ObjectMapper objectMapper;
 
