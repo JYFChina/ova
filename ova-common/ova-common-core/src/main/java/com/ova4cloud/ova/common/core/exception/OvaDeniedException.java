@@ -23,23 +23,23 @@ import lombok.NoArgsConstructor;
  * @date 2018年06月22日16:22:03 403 授权拒绝
  */
 @NoArgsConstructor
-public class PigDeniedException extends RuntimeException {
+public class OvaDeniedException extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;
 
-	public PigDeniedException(String message) {
+	public OvaDeniedException(String message) {
 		super(message);
 	}
 
-	public PigDeniedException(Throwable cause) {
+	public OvaDeniedException(Throwable cause) {
 		super(cause);
 	}
 
-	public PigDeniedException(String message, Throwable cause) {
+	public OvaDeniedException(String message, Throwable cause) {
 		super(message, cause);
 	}
 
-	public PigDeniedException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+	public OvaDeniedException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
 		super(message, cause, enableSuppression, writableStackTrace);
 	}
 

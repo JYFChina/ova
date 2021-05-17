@@ -28,7 +28,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @EnableFeignClients
-public @interface EnablePigFeignClients {
+public @interface EnableOvaFeignClients {
 
 	/**
 	 * Alias for the {@link #basePackages()} attribute. Allows for more concise annotation

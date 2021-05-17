@@ -16,7 +16,7 @@
 
 package com.ova4cloud.ova.auth;
 
-import com.ova4cloud.ova.common.feign.annotation.EnablePigFeignClients;
+import com.ova4cloud.ova.common.feign.annotation.EnableOvaFeignClients;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -25,7 +25,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @author lengleng
  * @date 2018年06月21日 认证授权中心
  */
-@EnablePigFeignClients
+@EnableOvaFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
 public class OvaAuthApplication {

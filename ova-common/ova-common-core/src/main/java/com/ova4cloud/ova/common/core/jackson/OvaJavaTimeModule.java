@@ -37,9 +37,9 @@ import java.time.format.DateTimeFormatter;
  * @author lishanbu
  */
 
-public class PigJavaTimeModule extends SimpleModule {
+public class OvaJavaTimeModule extends SimpleModule {
 
-	public PigJavaTimeModule() {
+	public OvaJavaTimeModule() {
 		super(PackageVersion.VERSION);
 		this.addSerializer(LocalDateTime.class,
 				new LocalDateTimeSerializer(DateTimeFormatter.ofPattern(DatePattern.NORM_DATETIME_PATTERN)));
