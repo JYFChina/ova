@@ -36,6 +36,6 @@ import java.lang.annotation.*;
 @EnableSwagger2
 @EnableConfigurationProperties(SwaggerProperties.class)
 @Import({ SwaggerAutoConfiguration.class, GatewaySwaggerAutoConfiguration.class })
-public @interface EnablePigSwagger2 {
+public @interface EnableOvaSwagger2 {
 
 }

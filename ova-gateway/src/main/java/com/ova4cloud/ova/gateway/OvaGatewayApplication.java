@@ -16,7 +16,7 @@
 
 package com.ova4cloud.ova.gateway;
 
-import com.ova4cloud.ova.common.swagger.annotation.EnablePigSwagger2;
+import com.ova4cloud.ova.common.swagger.annotation.EnableOvaSwagger2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -27,7 +27,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * <p>
  * 网关应用
  */
-@EnablePigSwagger2
+@EnableOvaSwagger2
 @EnableDiscoveryClient
 @SpringBootApplication
 public class OvaGatewayApplication {
