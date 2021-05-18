@@ -11,5 +11,16 @@
 
     <artifactId>ova-common-datasource</artifactId>
 
+    <packaging>jar</packaging>
 
+    <description>ova 动态切换数据源</description>
+
+    <dependencies>
+        <!--mybatis-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+            <version>${dynamic-ds.version}</version>
+        </dependency>
+    </dependencies>
 </project>
