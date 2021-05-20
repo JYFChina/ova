@@ -19,6 +19,7 @@
         <module>ova-common-feign</module>
         <module>ova-common-swagger</module>
         <module>ova-common-datasource</module>
+        <module>ova-common-mybatis</module>
     </modules>
 
 
