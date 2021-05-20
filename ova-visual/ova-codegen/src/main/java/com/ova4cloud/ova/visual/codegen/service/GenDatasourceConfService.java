@@ -16,7 +16,7 @@
 package com.ova4cloud.ova.visual.codegen.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.pig4cloud.pig.codegen.entity.GenDatasourceConf;
+import com.ova4cloud.ova.codegen.entity.GenDatasourceConf;
 
 /**
  * 数据源表

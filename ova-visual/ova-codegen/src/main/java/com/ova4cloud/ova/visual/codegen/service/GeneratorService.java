@@ -18,7 +18,7 @@ package com.ova4cloud.ova.visual.codegen.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.pig4cloud.pig.codegen.entity.GenConfig;
+import com.ova4cloud.ova.codegen.entity.GenConfig;
 
 import java.util.List;
 import java.util.Map;

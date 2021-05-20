@@ -14,25 +14,18 @@
  * limitations under the License.
  */
 
-package com.ova4cloud.ova.visual.codegen.service;
+package com.ova4cloud.ova.common.log.event;
 
-import com.baomidou.mybatisplus.extension.service.IService;
-import com.ova4cloud.ova.codegen.entity.GenFormConf;
+import com.ova4cloud.ova.admin.api.entity.SysLog;
+import org.springframework.context.ApplicationEvent;
 
 /**
- * 表单管理
- *
- * @author lengleng
- * @date 2019-08-12 15:55:35
+ * @author lengleng 系统日志事件
  */
-public interface GenFormConfService extends IService<GenFormConf> {
+public class SysLogEvent extends ApplicationEvent {
 
-	/**
-	 * 获取表单信息
-	 * @param dsName 数据源ID
-	 * @param tableName 表名称
-	 * @return
-	 */
-	String getForm(String dsName, String tableName);
+	public SysLogEvent(SysLog source) {
+		super(source);
+	}
 
 }

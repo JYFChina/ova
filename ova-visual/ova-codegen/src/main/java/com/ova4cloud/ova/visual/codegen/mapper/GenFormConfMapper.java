@@ -17,7 +17,7 @@
 package com.ova4cloud.ova.visual.codegen.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.pig4cloud.pig.codegen.entity.GenFormConf;
+import com.ova4cloud.ova.codegen.entity.GenFormConf;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

@@ -18,9 +18,9 @@ package com.ova4cloud.ova.common.datasource;
 
 import com.baomidou.dynamic.datasource.processor.DsProcessor;
 import com.baomidou.dynamic.datasource.provider.DynamicDataSourceProvider;
-import com.pig4cloud.pig.common.datasource.config.DataSourceProperties;
-import com.pig4cloud.pig.common.datasource.config.JdbcDynamicDataSourceProvider;
-import com.pig4cloud.pig.common.datasource.config.LastParamDsProcessor;
+import com.ova4cloud.ova.common.datasource.config.DataSourceProperties;
+import com.ova4cloud.ova.common.datasource.config.JdbcDynamicDataSourceProvider;
+import com.ova4cloud.ova.common.datasource.config.LastParamDsProcessor;
 import lombok.RequiredArgsConstructor;
 import org.jasypt.encryption.StringEncryptor;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;

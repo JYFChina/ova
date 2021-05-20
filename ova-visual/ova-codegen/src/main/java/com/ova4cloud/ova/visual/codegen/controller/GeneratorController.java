@@ -18,9 +18,9 @@ package com.ova4cloud.ova.visual.codegen.controller;
 
 import cn.hutool.core.io.IoUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.pig4cloud.pig.codegen.entity.GenConfig;
-import com.pig4cloud.pig.codegen.service.GeneratorService;
-import com.pig4cloud.pig.common.core.util.R;
+import com.ova4cloud.ova.codegen.entity.GenConfig;
+import com.ova4cloud.ova.codegen.service.GeneratorService;
+import com.ova4cloud.ova.common.core.util.R;
 import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;

@@ -14,25 +14,39 @@
  * limitations under the License.
  */
 
-package com.ova4cloud.ova.visual.codegen.service;
+package com.ova4cloud.ova.common.log.util;
 
-import com.baomidou.mybatisplus.extension.service.IService;
-import com.ova4cloud.ova.codegen.entity.GenFormConf;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
 /**
- * 表单管理
- *
  * @author lengleng
- * @date 2019-08-12 15:55:35
+ * @date 2020/7/30
+ * <p>
+ * 日志类型
  */
-public interface GenFormConfService extends IService<GenFormConf> {
+@Getter
+@RequiredArgsConstructor
+public enum LogTypeEnum {
 
 	/**
-	 * 获取表单信息
-	 * @param dsName 数据源ID
-	 * @param tableName 表名称
-	 * @return
+	 * 正常日志类型
 	 */
-	String getForm(String dsName, String tableName);
+	NORMAL("0", "正常日志"),
+
+	/**
+	 * 错误日志类型
+	 */
+	ERROR("9", "错误日志");
+
+	/**
+	 * 类型
+	 */
+	private final String type;
+
+	/**
+	 * 描述
+	 */
+	private final String description;
 
 }

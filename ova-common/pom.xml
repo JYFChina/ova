@@ -20,6 +20,7 @@
         <module>ova-common-swagger</module>
         <module>ova-common-datasource</module>
         <module>ova-common-mybatis</module>
+        <module>ova-common-log</module>
     </modules>
 
 

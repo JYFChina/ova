@@ -18,7 +18,7 @@ package com.ova4cloud.ova.common.datasource.config;
 
 import com.baomidou.dynamic.datasource.provider.AbstractJdbcDataSourceProvider;
 import com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DataSourceProperty;
-import com.pig4cloud.pig.common.datasource.support.DataSourceConstants;
+import com.ova4cloud.ova.common.datasource.support.DataSourceConstants;
 import org.jasypt.encryption.StringEncryptor;
 
 import java.sql.ResultSet;

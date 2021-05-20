@@ -14,25 +14,23 @@
  * limitations under the License.
  */
 
-package com.ova4cloud.ova.visual.codegen.service;
+package com.ova4cloud.ova.common.log.annotation;
 
-import com.baomidou.mybatisplus.extension.service.IService;
-import com.ova4cloud.ova.codegen.entity.GenFormConf;
+import java.lang.annotation.*;
 
 /**
- * 表单管理
- *
  * @author lengleng
- * @date 2019-08-12 15:55:35
+ * @date 2019/2/1 操作日志注解
  */
-public interface GenFormConfService extends IService<GenFormConf> {
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
+public @interface SysLog {
 
 	/**
-	 * 获取表单信息
-	 * @param dsName 数据源ID
-	 * @param tableName 表名称
-	 * @return
+	 * 描述
+	 * @return {String}
 	 */
-	String getForm(String dsName, String tableName);
+	String value();
 
 }
