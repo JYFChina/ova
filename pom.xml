@@ -96,7 +96,6 @@
     </modules>
 
     <dependencyManagement>
-
         <dependencies>
             <dependency>
                 <groupId>com.ova4cloud</groupId>
