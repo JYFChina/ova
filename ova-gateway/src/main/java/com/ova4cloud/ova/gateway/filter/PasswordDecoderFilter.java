@@ -51,6 +51,8 @@ public class PasswordDecoderFilter extends AbstractGatewayFilterFactory {
 
 	private static final String PASSWORD = "password";
 
+	private static final String LOGIN_TYPE = "login_type";
+
 	private static final String KEY_ALGORITHM = "AES";
 
 	private final GatewayConfigProperties configProperties;
@@ -77,16 +79,21 @@ public class PasswordDecoderFilter extends AbstractGatewayFilterFactory {
 			Map<String, String> paramMap = HttpUtil.decodeParamMap(queryParam, CharsetUtil.CHARSET_UTF_8);
 
 			String password = paramMap.get(PASSWORD);
-			if (StrUtil.isNotBlank(password)) {
-				try {
-					password = decryptAES(password, configProperties.getEncodeKey());
+			if(paramMap.get(LOGIN_TYPE)!=null&& "phone".equals(paramMap.get(LOGIN_TYPE))){
+				log.info("（没有加密）移动端登陆:{}", paramMap.get("username"));
+			}else{
+				if (StrUtil.isNotBlank(password)) {
+					try {
+						password = decryptAES(password, configProperties.getEncodeKey());
+					}
+					catch (Exception e) {
+						log.error("密码解密失败:{}", password);
+						return Mono.error(e);
+					}
+					paramMap.put(PASSWORD, password.trim());
 				}
-				catch (Exception e) {
-					log.error("密码解密失败:{}", password);
-					return Mono.error(e);
-				}
-				paramMap.put(PASSWORD, password.trim());
 			}
+
 
 			URI newUri = UriComponentsBuilder.fromUri(uri).replaceQuery(HttpUtil.toParams(paramMap)).build(true)
 					.toUri();
@@ -95,5 +102,4 @@ public class PasswordDecoderFilter extends AbstractGatewayFilterFactory {
 			return chain.filter(exchange.mutate().request(newRequest).build());
 		};
 	}
-
 }
