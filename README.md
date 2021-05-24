@@ -116,7 +116,7 @@ ova 开源软件遵循 [Apache 2.0 协议](https://www.apache.org/licenses/LICEN
 
 2. 欢迎提交 [issue](https://gitee.com/log4j/ova/issues)，请写清楚遇到问题的原因、开发环境、复显步骤。
 
-3. 联系作者 <a href="mailto:ova4cloud@qq.com">ova4cloud@qq.com</a>
+3. 联系作者 <a href="mailto:1344620003@qq.com">  </a>
 
 
 [![Stargazers over time](https://whnb.wang/img/log4j/ova?e=604800)](https://whnb.wang/log4j/ova?e=604800)
