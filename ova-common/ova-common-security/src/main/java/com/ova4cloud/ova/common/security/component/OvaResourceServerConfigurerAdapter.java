@@ -75,7 +75,7 @@ public class OvaResourceServerConfigurerAdapter extends ResourceServerConfigurer
 	@Override
 	public void configure(ResourceServerSecurityConfigurer resources) {
 		DefaultAccessTokenConverter accessTokenConverter = new DefaultAccessTokenConverter();
-		UserAuthenticationConverter userTokenConverter = new PigUserAuthenticationConverter();
+		UserAuthenticationConverter userTokenConverter = new OvaUserAuthenticationConverter();
 		accessTokenConverter.setUserTokenConverter(userTokenConverter);
 
 		remoteTokenServices.setRestTemplate(lbRestTemplate);

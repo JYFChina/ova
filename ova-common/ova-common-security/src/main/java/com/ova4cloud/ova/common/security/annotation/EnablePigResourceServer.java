@@ -16,8 +16,8 @@
 
 package com.ova4cloud.ova.common.security.annotation;
 
-import com.ova4cloud.ova.common.security.component.PigResourceServerAutoConfiguration;
-import com.ova4cloud.ova.common.security.component.PigSecurityBeanDefinitionRegistrar;
+import com.ova4cloud.ova.common.security.component.OvaResourceServerAutoConfiguration;
+import com.ova4cloud.ova.common.security.component.OvaSecurityBeanDefinitionRegistrar;
 import org.springframework.context.annotation.Import;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
@@ -36,7 +36,7 @@ import java.lang.annotation.*;
 @Target({ ElementType.TYPE })
 @Retention(RetentionPolicy.RUNTIME)
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-@Import({ PigResourceServerAutoConfiguration.class, PigSecurityBeanDefinitionRegistrar.class })
+@Import({ OvaResourceServerAutoConfiguration.class, OvaSecurityBeanDefinitionRegistrar.class })
 public @interface EnablePigResourceServer {
 
 }

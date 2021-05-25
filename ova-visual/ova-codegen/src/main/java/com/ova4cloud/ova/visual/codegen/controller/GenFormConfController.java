@@ -18,8 +18,8 @@ package com.ova4cloud.ova.visual.codegen.controller;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.ova4cloud.ova.codegen.entity.GenFormConf;
-import com.ova4cloud.ova.codegen.service.GenFormConfService;
+import com.ova4cloud.ova.visual.codegen.entity.GenFormConf;
+import com.ova4cloud.ova.visual.codegen.service.GenFormConfService;
 import com.ova4cloud.ova.common.core.util.R;
 import com.ova4cloud.ova.common.log.annotation.SysLog;
 import io.swagger.annotations.Api;

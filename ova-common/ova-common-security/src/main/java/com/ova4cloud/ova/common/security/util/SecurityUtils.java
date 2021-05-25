@@ -18,7 +18,7 @@ package com.ova4cloud.ova.common.security.util;
 
 import cn.hutool.core.util.StrUtil;
 import com.ova4cloud.ova.common.core.constant.SecurityConstants;
-import com.ova4cloud.ova.common.security.service.PigUser;
+import com.ova4cloud.ova.common.security.service.OvaUser;
 import lombok.experimental.UtilityClass;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
@@ -46,10 +46,10 @@ public class SecurityUtils {
 	/**
 	 * 获取用户
 	 */
-	public PigUser getUser(Authentication authentication) {
+	public OvaUser getUser(Authentication authentication) {
 		Object principal = authentication.getPrincipal();
-		if (principal instanceof PigUser) {
-			return (PigUser) principal;
+		if (principal instanceof OvaUser) {
+			return (OvaUser) principal;
 		}
 		return null;
 	}
@@ -57,7 +57,7 @@ public class SecurityUtils {
 	/**
 	 * 获取用户
 	 */
-	public PigUser getUser() {
+	public OvaUser getUser() {
 		Authentication authentication = getAuthentication();
 		if (authentication == null) {
 			return null;

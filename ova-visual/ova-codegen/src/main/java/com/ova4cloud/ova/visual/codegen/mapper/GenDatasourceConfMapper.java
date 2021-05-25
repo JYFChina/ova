@@ -16,7 +16,7 @@
 package com.ova4cloud.ova.visual.codegen.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.ova4cloud.ova.codegen.entity.GenDatasourceConf;
+import com.ova4cloud.ova.visual.codegen.entity.GenDatasourceConf;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

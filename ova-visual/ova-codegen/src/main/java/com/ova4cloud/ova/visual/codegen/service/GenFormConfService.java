@@ -17,7 +17,7 @@
 package com.ova4cloud.ova.visual.codegen.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.ova4cloud.ova.codegen.entity.GenFormConf;
+import com.ova4cloud.ova.visual.codegen.entity.GenFormConf;
 
 /**
  * 表单管理

@@ -24,12 +24,12 @@ import com.baomidou.dynamic.datasource.annotation.DS;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.ova4cloud.ova.codegen.entity.GenConfig;
-import com.ova4cloud.ova.codegen.entity.GenFormConf;
-import com.ova4cloud.ova.codegen.mapper.GenFormConfMapper;
-import com.ova4cloud.ova.codegen.mapper.GeneratorMapper;
-import com.ova4cloud.ova.codegen.service.GeneratorService;
-import com.ova4cloud.ova.codegen.util.CodeGenUtils;
+import com.ova4cloud.ova.visual.codegen.entity.GenConfig;
+import com.ova4cloud.ova.visual.codegen.entity.GenFormConf;
+import com.ova4cloud.ova.visual.codegen.mapper.GenFormConfMapper;
+import com.ova4cloud.ova.visual.codegen.mapper.GeneratorMapper;
+import com.ova4cloud.ova.visual.codegen.service.GeneratorService;
+import com.ova4cloud.ova.visual.codegen.util.CodeGenUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

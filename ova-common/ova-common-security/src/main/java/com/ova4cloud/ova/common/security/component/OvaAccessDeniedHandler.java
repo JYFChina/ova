@@ -24,7 +24,7 @@ package com.ova4cloud.ova.common.security.component;
 import cn.hutool.http.HttpStatus;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ova4cloud.ova.common.core.constant.CommonConstants;
-import com.ova4cloud.ova.common.core.exception.PigDeniedException;
+import com.ova4cloud.ova.common.core.exception.OvaDeniedException;
 import com.ova4cloud.ova.common.core.util.R;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
@@ -59,7 +59,7 @@ public class OvaAccessDeniedHandler extends OAuth2AccessDeniedHandler {
 		log.info("授权失败，禁止访问 {}", request.getRequestURI());
 		response.setCharacterEncoding(CommonConstants.UTF8);
 		response.setContentType(CommonConstants.CONTENT_TYPE);
-		R<PigDeniedException> result = R.failed(new PigDeniedException("授权失败，禁止访问"));
+		R<OvaDeniedException> result = R.failed(new OvaDeniedException("授权失败，禁止访问"));
 		response.setStatus(HttpStatus.HTTP_FORBIDDEN);
 		PrintWriter printWriter = response.getWriter();
 		printWriter.append(objectMapper.writeValueAsString(result));

@@ -20,7 +20,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.ova4cloud.ova.visual.codegen.entity.GenDatasourceConf;
 import com.ova4cloud.ova.visual.codegen.service.GenDatasourceConfService;
 import com.ova4cloud.ova.common.core.util.R;
-//import com.ova4cloud.ova.common.log.annotation.SysLog;
+import com.ova4cloud.ova.common.log.annotation.SysLog;
 import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

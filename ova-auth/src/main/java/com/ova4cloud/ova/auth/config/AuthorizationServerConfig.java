@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 pig4cloud Authors. All Rights Reserved.
+ * Copyright (c) 2020 Ova4cloud Authors. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,9 +18,9 @@ package com.ova4cloud.ova.auth.config;
 
 import com.ova4cloud.ova.common.core.constant.CacheConstants;
 import com.ova4cloud.ova.common.core.constant.SecurityConstants;
-import com.ova4cloud.ova.common.security.component.PigWebResponseExceptionTranslator;
-import com.ova4cloud.ova.common.security.service.PigClientDetailsService;
-import com.ova4cloud.ova.common.security.service.PigUser;
+import com.ova4cloud.ova.common.security.component.OvaWebResponseExceptionTranslator;
+import com.ova4cloud.ova.common.security.service.OvaClientDetailsService;
+import com.ova4cloud.ova.common.security.service.OvaUser;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.context.annotation.Bean;
@@ -63,7 +63,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 	@Override
 	@SneakyThrows
 	public void configure(ClientDetailsServiceConfigurer clients) {
-		PigClientDetailsService clientDetailsService = new PigClientDetailsService(dataSource);
+		OvaClientDetailsService clientDetailsService = new OvaClientDetailsService(dataSource);
 		clientDetailsService.setSelectClientDetailsSql(SecurityConstants.DEFAULT_SELECT_STATEMENT);
 		clientDetailsService.setFindClientDetailsSql(SecurityConstants.DEFAULT_FIND_STATEMENT);
 		clients.withClientDetails(clientDetailsService);
@@ -80,7 +80,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 				.tokenEnhancer(tokenEnhancer()).userDetailsService(userDetailsService)
 				.authenticationManager(authenticationManager).reuseRefreshTokens(false)
 				.pathMapping("/oauth/confirm_access", "/token/confirm_access")
-				.exceptionTranslator(new PigWebResponseExceptionTranslator());
+				.exceptionTranslator(new OvaWebResponseExceptionTranslator());
 	}
 
 	@Bean
@@ -94,11 +94,11 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 	public TokenEnhancer tokenEnhancer() {
 		return (accessToken, authentication) -> {
 			final Map<String, Object> additionalInfo = new HashMap<>(4);
-			PigUser pigUser = (PigUser) authentication.getUserAuthentication().getPrincipal();
+			OvaUser OvaUser = (OvaUser) authentication.getUserAuthentication().getPrincipal();
 			additionalInfo.put(SecurityConstants.DETAILS_LICENSE, SecurityConstants.PROJECT_LICENSE);
-			additionalInfo.put(SecurityConstants.DETAILS_USER_ID, pigUser.getId());
-			additionalInfo.put(SecurityConstants.DETAILS_USERNAME, pigUser.getUsername());
-			additionalInfo.put(SecurityConstants.DETAILS_DEPT_ID, pigUser.getDeptId());
+			additionalInfo.put(SecurityConstants.DETAILS_USER_ID, OvaUser.getId());
+			additionalInfo.put(SecurityConstants.DETAILS_USERNAME, OvaUser.getUsername());
+			additionalInfo.put(SecurityConstants.DETAILS_DEPT_ID, OvaUser.getDeptId());
 			((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(additionalInfo);
 			return accessToken;
 		};

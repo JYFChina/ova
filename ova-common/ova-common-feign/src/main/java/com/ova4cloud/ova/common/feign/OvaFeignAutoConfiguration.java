@@ -19,9 +19,9 @@ package com.ova4cloud.ova.common.feign;
 import com.alibaba.cloud.sentinel.feign.SentinelFeignAutoConfiguration;
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.BlockExceptionHandler;
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.RequestOriginParser;
-import com.ova4cloud.ova.common.feign.ext.PigSentinelFeign;
-import com.ova4cloud.ova.common.feign.handle.PigUrlBlockHandler;
-import com.ova4cloud.ova.common.feign.parser.PigHeaderRequestOriginParser;
+import com.ova4cloud.ova.common.feign.ext.OvaSentinelFeign;
+import com.ova4cloud.ova.common.feign.handle.OvaUrlBlockHandler;
+import com.ova4cloud.ova.common.feign.parser.OvaHeaderRequestOriginParser;
 import feign.Feign;
 import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -45,19 +45,19 @@ public class OvaFeignAutoConfiguration {
 	@ConditionalOnMissingBean
 	@ConditionalOnProperty(name = "feign.sentinel.enabled")
 	public Feign.Builder feignSentinelBuilder() {
-		return PigSentinelFeign.builder();
+		return OvaSentinelFeign.builder();
 	}
 
 	@Bean
 	@ConditionalOnMissingBean
 	public BlockExceptionHandler blockExceptionHandler() {
-		return new PigUrlBlockHandler();
+		return new OvaUrlBlockHandler();
 	}
 
 	@Bean
 	@ConditionalOnMissingBean
 	public RequestOriginParser requestOriginParser() {
-		return new PigHeaderRequestOriginParser();
+		return new OvaHeaderRequestOriginParser();
 	}
 
 }
