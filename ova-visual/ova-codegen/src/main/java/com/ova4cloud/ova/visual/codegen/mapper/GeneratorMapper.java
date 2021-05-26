@@ -28,8 +28,8 @@ import java.util.Map;
 /**
  * 代码生成器
  *
- * @author lengleng
- * @date 2018-07-30
+* @author JYF
+ * @date 2021-05-26
  */
 @Mapper
 public interface GeneratorMapper {
