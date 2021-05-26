@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 pig4cloud Authors. All Rights Reserved.
+ * Copyright (c) 2020 ova4cloud Authors. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,9 +16,9 @@
 
 package com.ova4cloud.ova.visual.codegen;
 
-//import com.ova4cloud.ova.common.datasource.annotation.EnableDynamicDataSource;
-//import com.ova4cloud.ova.common.feign.annotation.EnablePigFeignClients;
-//import com.ova4cloud.ova.common.security.annotation.EnablePigResourceServer;
+import com.ova4cloud.ova.common.datasource.annotation.EnableDynamicDataSource;
+import com.ova4cloud.ova.common.feign.annotation.EnableOvaFeignClients;
+import com.ova4cloud.ova.common.security.annotation.EnablePigResourceServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -27,11 +27,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @author lengleng
  * @date 2020/03/11 代码生成模块
  */
-//@EnableDynamicDataSource
-//@EnablePigFeignClients
+@EnableDynamicDataSource
+@EnableOvaFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-//@EnablePigResourceServer
+@EnablePigResourceServer
 public class OvaCodeGenApplication {
 
 	public static void main(String[] args) {

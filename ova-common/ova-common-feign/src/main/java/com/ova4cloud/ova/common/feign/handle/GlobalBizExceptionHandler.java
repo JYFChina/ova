@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 pig4cloud Authors. All Rights Reserved.
+ * Copyright (c) 2020 ova4cloud Authors. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -35,7 +35,7 @@ import java.util.List;
 
 /**
  * <p>
- * 全局异常处理器结合sentinel 全局异常处理器不能作用在 oauth server https://gitee.com/log4j/pig/issues/I1M2TJ
+ * 全局异常处理器结合sentinel 全局异常处理器不能作用在 oauth server https://gitee.com/log4j/ova/issues/I1M2TJ
  * </p>
  *
  * @author lengleng
