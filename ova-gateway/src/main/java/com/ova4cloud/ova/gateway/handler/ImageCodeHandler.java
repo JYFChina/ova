@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 pig4cloud Authors. All Rights Reserved.
+ * Copyright (c) 2020 ova4cloud Authors. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 package com.ova4cloud.ova.gateway.handler;
 
-//import com.pig4cloud.captcha.ArithmeticCaptcha;
+//import com.ova4cloud.captcha.ArithmeticCaptcha;
 import com.ova4cloud.ova.common.core.constant.CacheConstants;
 import com.ova4cloud.ova.common.core.constant.SecurityConstants;
 import lombok.AllArgsConstructor;
