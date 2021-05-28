@@ -18,9 +18,9 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.pig4cloud.pig.codegen.mapper.GenFormConfMapper">
+<mapper namespace="com.ova4cloud.ova.visual.codegen.mapper.GenFormConfMapper">
 
-	<resultMap id="genRecordMap" type="com.pig4cloud.pig.codegen.entity.GenFormConf">
+	<resultMap id="genRecordMap" type="com.ova4cloud.ova.visual.codegen.entity.GenFormConf">
 		<id property="id" column="id"/>
 		<result property="tableName" column="table_name"/>
 		<result property="formInfo" column="form_info"/>
