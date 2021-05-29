@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 pig4cloud Authors. All Rights Reserved.
+ * Copyright (c) 2020 ova4cloud Authors. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -38,7 +38,7 @@ import static org.springframework.boot.autoconfigure.condition.ConditionalOnWebA
 public class WebMvcConfiguration implements WebMvcConfigurer {
 
 	/**
-	 * 增加GET请求参数中时间类型转换 {@link com.ova4cloud.ova.common.core.jackson.PigJavaTimeModule}
+	 * 增加GET请求参数中时间类型转换 {@link com.ova4cloud.ova.common.core.jackson.ovaJavaTimeModule}
 	 * <ul>
 	 * <li>HH:mm:ss -> LocalTime</li>
 	 * <li>yyyy-MM-dd -> LocalDate</li>
