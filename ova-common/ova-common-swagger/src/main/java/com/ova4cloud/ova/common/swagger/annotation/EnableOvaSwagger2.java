@@ -27,7 +27,7 @@ import java.lang.annotation.*;
 
 /**
  * @author lengleng
- * @date 2020/10/2 开启pig swagger
+ * @date 2020/10/2 开启ova swagger
  */
 @Target({ ElementType.TYPE })
 @Retention(RetentionPolicy.RUNTIME)

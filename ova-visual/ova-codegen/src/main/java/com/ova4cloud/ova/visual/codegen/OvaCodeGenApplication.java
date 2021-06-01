@@ -18,7 +18,7 @@ package com.ova4cloud.ova.visual.codegen;
 
 import com.ova4cloud.ova.common.datasource.annotation.EnableDynamicDataSource;
 import com.ova4cloud.ova.common.feign.annotation.EnableOvaFeignClients;
-import com.ova4cloud.ova.common.security.annotation.EnablePigResourceServer;
+import com.ova4cloud.ova.common.security.annotation.EnableOvaResourceServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -31,7 +31,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableOvaFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnablePigResourceServer
+@EnableOvaResourceServer
 public class OvaCodeGenApplication {
 
 	public static void main(String[] args) {
