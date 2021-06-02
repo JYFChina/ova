@@ -44,7 +44,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2019/2/1 认证服务器配置
  */
 @Configuration

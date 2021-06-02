@@ -30,7 +30,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2020-02-06
  * <p>
  * 动态数据源切换配置

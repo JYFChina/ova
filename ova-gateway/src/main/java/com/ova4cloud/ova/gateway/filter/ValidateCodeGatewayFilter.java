@@ -40,7 +40,7 @@ import org.springframework.stereotype.Component;
 import reactor.core.publisher.Mono;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2018/7/4 验证码处理
  */
 @Slf4j

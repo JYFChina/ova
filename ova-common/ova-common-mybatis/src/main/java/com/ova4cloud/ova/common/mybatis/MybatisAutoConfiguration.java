@@ -28,7 +28,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import java.util.List;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2020-03-14
  * <p>
  * mybatis plus 统一配置

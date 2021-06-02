@@ -17,7 +17,7 @@
 package com.ova4cloud.ova.common.core.constant;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2019/2/1
  */
 public interface CommonConstants {

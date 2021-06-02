@@ -19,7 +19,7 @@ package com.ova4cloud.ova.common.core.exception;
 import lombok.NoArgsConstructor;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2018年06月22日16:22:03 403 授权拒绝
  */
 @NoArgsConstructor

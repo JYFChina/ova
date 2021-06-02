@@ -33,7 +33,7 @@ import org.springframework.security.web.authentication.AuthenticationFailureHand
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2019/2/1 认证相关配置
  */
 @Primary

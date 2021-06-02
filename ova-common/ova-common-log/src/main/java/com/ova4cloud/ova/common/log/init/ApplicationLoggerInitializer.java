@@ -21,7 +21,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2019-06-25
  * <p>
  * 通过环境变量的形式注入 logging.file 自动维护 Spring Boot Admin Logger Viewer

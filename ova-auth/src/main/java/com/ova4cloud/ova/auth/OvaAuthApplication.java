@@ -29,9 +29,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @SpringBootApplication
 public class OvaAuthApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(OvaAuthApplication.class, args);
 	}
-
 }

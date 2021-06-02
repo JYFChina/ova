@@ -17,7 +17,7 @@
 package com.ova4cloud.ova.common.security.component;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2019/2/1
  */
 
@@ -38,7 +38,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 
 /**
- * @author lengleng 授权拒绝处理器，覆盖默认的OAuth2AccessDeniedHandler 包装失败信息到ovaDeniedException
+ * @author JYF 授权拒绝处理器，覆盖默认的OAuth2AccessDeniedHandler 包装失败信息到ovaDeniedException
  */
 @Slf4j
 @Component

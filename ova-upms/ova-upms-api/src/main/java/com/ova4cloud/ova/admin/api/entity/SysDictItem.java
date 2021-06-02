@@ -28,7 +28,7 @@ import java.time.LocalDateTime;
 /**
  * 字典项
  *
- * @author lengleng
+ * @author JYF
  * @date 2019/03/19
  */
 @Data

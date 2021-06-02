@@ -20,7 +20,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2020-02-17
  * <p>
  * 菜单类型

@@ -51,7 +51,7 @@ import java.util.zip.ZipOutputStream;
  * elunez/eladmin/blob/master/eladmin-generator/src/main/java/me/zhengjie/utils/GenUtil.java
  *
  * @author Zheng Jie
- * @author lengleng
+ * @author JYF
  * @date 2020-03-13
  */
 @Slf4j

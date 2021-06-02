@@ -20,7 +20,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2020/7/30
  * <p>
  * 日志类型

@@ -15,7 +15,7 @@ import org.springframework.web.reactive.function.server.RouterFunctions;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2020/10/2
  * <p>
  * 网关swagger 配置类，仅在webflux 环境生效哦

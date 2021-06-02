@@ -38,7 +38,7 @@ import java.util.List;
  * 全局异常处理器结合sentinel 全局异常处理器不能作用在 oauth server https://gitee.com/log4j/ova/issues/I1M2TJ
  * </p>
  *
- * @author lengleng
+ * @author JYF
  * @date 2020-06-29
  */
 @Slf4j

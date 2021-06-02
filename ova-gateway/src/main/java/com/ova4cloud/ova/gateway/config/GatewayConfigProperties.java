@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2020/10/4
  * <p>
  * 网关配置文件

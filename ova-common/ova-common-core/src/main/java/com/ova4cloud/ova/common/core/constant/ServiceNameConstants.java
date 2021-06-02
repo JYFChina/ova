@@ -17,7 +17,7 @@
 package com.ova4cloud.ova.common.core.constant;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2018年06月22日16:41:01 服务名称
  */
 public interface ServiceNameConstants {
