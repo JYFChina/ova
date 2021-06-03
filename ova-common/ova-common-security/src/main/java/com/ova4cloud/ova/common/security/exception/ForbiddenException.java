@@ -21,7 +21,7 @@ import com.ova4cloud.ova.common.security.component.OvaAuth2ExceptionSerializer;
 import org.springframework.http.HttpStatus;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2019/2/1
  */
 @JsonSerialize(using = OvaAuth2ExceptionSerializer.class)

@@ -21,7 +21,7 @@ import com.ova4cloud.ova.visual.codegen.entity.GenDatasourceConf;
 /**
  * 数据源表
  *
- * @author lengleng
+ * @author JYF
  * @date 2019-03-31 16:00:20
  */
 public interface GenDatasourceConfService extends IService<GenDatasourceConf> {

@@ -21,7 +21,7 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2018/07/29 表属性： https://blog.csdn.net/lkforce/article/details/79557482
  */
 @Data

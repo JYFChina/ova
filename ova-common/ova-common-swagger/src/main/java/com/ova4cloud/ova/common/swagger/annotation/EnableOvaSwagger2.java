@@ -26,7 +26,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import java.lang.annotation.*;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2020/10/2 开启ova swagger
  */
 @Target({ ElementType.TYPE })

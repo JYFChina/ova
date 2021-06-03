@@ -20,7 +20,7 @@ import com.ova4cloud.ova.admin.api.entity.SysLog;
 import org.springframework.context.ApplicationEvent;
 
 /**
- * @author lengleng 系统日志事件
+ * @author JYF 系统日志事件
  */
 public class SysLogEvent extends ApplicationEvent {
 

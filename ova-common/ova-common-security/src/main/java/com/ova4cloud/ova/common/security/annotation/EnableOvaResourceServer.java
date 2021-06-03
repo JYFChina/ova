@@ -25,7 +25,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import java.lang.annotation.*;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2019/03/08
  * <p>
  * 资源服务注解

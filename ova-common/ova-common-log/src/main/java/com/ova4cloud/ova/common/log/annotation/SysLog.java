@@ -19,7 +19,7 @@ package com.ova4cloud.ova.common.log.annotation;
 import java.lang.annotation.*;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2019/2/1 操作日志注解
  */
 @Target(ElementType.METHOD)

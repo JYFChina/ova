@@ -1,5 +1,5 @@
 /*
- *    Copyright (c) 2018-2025, lengleng All rights reserved.
+ *    Copyright (c) 2018-2025, JYF All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -12,7 +12,7 @@
  * Neither the name of the ova4cloud.com developer nor the names of its
  * contributors may be used to endorse or promote products derived from
  * this software without specific prior written permission.
- * Author: lengleng (wangiegie@gmail.com)
+ * Author: JYF (wangiegie@gmail.com)
  */
 package com.ova4cloud.ova.common.swagger.support;
 
@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * SwaggerProperties
  *
- * @author lengleng
+ * @author JYF
  * @date 2018/7/25 14:00
  */
 @Data

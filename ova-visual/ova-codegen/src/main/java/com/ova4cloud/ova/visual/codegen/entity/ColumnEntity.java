@@ -19,7 +19,7 @@ package com.ova4cloud.ova.visual.codegen.entity;
 import lombok.Data;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2018/07/29 列属性： https://blog.csdn.net/lkforce/article/details/79557482
  */
 @Data

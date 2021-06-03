@@ -22,7 +22,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2019/2/1 认证失败事件处理器
  */
 public abstract class AbstractAuthenticationFailureEvenHandler

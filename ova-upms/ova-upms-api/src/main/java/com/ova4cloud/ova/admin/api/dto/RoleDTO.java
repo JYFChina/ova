@@ -21,7 +21,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
- * @author lengleng
+ * @author JYF
  * @date 2019/2/1 角色Dto
  */
 @Data
