@@ -18,7 +18,7 @@ package com.ova4cloud.ova.common.core.exception;
 
 /**
  * @author JYF
- * @date 2018年06月22日16:22:15
+ * @date 2020年06月22日16:22:15
  */
 public class ValidateCodeException extends RuntimeException {
 

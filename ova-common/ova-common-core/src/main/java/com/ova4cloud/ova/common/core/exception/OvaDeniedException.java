@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author JYF
- * @date 2018年06月22日16:22:03 403 授权拒绝
+ * @date 2020年06月22日16:22:03 403 授权拒绝
  */
 @NoArgsConstructor
 public class OvaDeniedException extends RuntimeException {

@@ -23,7 +23,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author JYF
- * @date 2018年06月21日 认证授权中心
+ * @date 2020年06月21日 认证授权中心
  */
 @EnableOvaFeignClients
 @EnableDiscoveryClient
