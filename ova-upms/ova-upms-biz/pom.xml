@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ova-upms-test</module>
+        <module>ova-upms-admin</module>
     </modules>
 
     <dependencies>
