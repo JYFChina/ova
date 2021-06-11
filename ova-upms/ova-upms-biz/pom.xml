@@ -28,7 +28,10 @@
             <artifactId>ova-common-security</artifactId>
         </dependency>
 
-
+        <dependency>
+            <groupId>com.ova4cloud</groupId>
+            <artifactId>ova-common-swagger</artifactId>
+        </dependency>
         <!--注册中心客户端-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

@@ -34,5 +34,4 @@ public class OvaGatewayApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(OvaGatewayApplication.class, args);
 	}
-
 }

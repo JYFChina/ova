@@ -16,9 +16,9 @@
 
 package com.ova4cloud.ova.admin;
 
-import com.ova4cloud.ova.common.feign.annotation.EnablePigFeignClients;
-import com.ova4cloud.ova.common.security.annotation.EnablePigResourceServer;
-import com.ova4cloud.ova.common.swagger.annotation.EnablePigSwagger2;
+import com.ova4cloud.ova.common.feign.annotation.EnableOvaFeignClients;
+import com.ova4cloud.ova.common.security.annotation.EnableOvaResourceServer;
+import com.ova4cloud.ova.common.swagger.annotation.EnableOvaSwagger2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -27,15 +27,15 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @author lengleng
  * @date 2018年06月21日 用户统一管理系统
  */
-@EnablePigSwagger2
-@EnablePigResourceServer
-@EnablePigFeignClients
+@EnableOvaSwagger2
+@EnableOvaResourceServer
+@EnableOvaFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-public class PigAdminApplication {
+public class OvaAdminApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PigAdminApplication.class, args);
+		SpringApplication.run(OvaAdminApplication.class, args);
 	}
 
 }
