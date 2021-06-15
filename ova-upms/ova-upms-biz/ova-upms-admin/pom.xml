@@ -10,6 +10,47 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ova-upms-admin</artifactId>
-
+    <dependencies>
+        <!--upms api、model 模块-->
+        <dependency>
+            <groupId>com.ova4cloud</groupId>
+            <artifactId>ova-upms-api</artifactId>
+        </dependency>
+        <!--安全模块-->
+        <dependency>
+            <groupId>com.ova4cloud</groupId>
+            <artifactId>ova-common-security</artifactId>
+        </dependency>
+        <!--日志处理-->
+        <dependency>
+            <groupId>com.ova4cloud</groupId>
+            <artifactId>ova-common-log</artifactId>
+        </dependency>
+        <!--接口文档-->
+        <dependency>
+            <groupId>com.ova4cloud</groupId>
+            <artifactId>ova-common-swagger</artifactId>
+        </dependency>
+        <!--mybatis 模块-->
+        <dependency>
+            <groupId>com.ova4cloud</groupId>
+            <artifactId>ova-common-mybatis</artifactId>
+        </dependency>
+        <!--注册中心客户端-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <!--配置中心客户端-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+        <!--undertow容器-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-undertow</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
