@@ -24,7 +24,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * @author lengleng
+ * @author test
  * @date 2018年06月21日 用户统一管理系统
  */
 @EnableOvaSwagger2

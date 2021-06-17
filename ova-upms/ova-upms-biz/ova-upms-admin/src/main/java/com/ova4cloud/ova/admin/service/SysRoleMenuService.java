@@ -24,7 +24,7 @@ import com.ova4cloud.ova.admin.api.entity.SysRoleMenu;
  * 角色菜单表 服务类
  * </p>
  *
- * @author lengleng
+ * @author test
  * @since 2019/2/1
  */
 public interface SysRoleMenuService extends IService<SysRoleMenu> {

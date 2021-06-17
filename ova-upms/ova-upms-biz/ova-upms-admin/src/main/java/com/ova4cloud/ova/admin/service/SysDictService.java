@@ -21,7 +21,7 @@ import com.ova4cloud.ova.admin.api.entity.SysDict;
 /**
  * 字典表
  *
- * @author lengleng
+ * @author test
  * @date 2019/03/19
  */
 public interface SysDictService extends IService<SysDict> {
