@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 /**
- * @author lengleng
+ * @author test
  * @date 2018/9/4 getTokenPage 管理
  */
 @RestController
