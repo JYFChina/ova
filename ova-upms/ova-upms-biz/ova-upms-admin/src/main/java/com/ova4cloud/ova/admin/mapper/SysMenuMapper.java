@@ -28,7 +28,7 @@ import java.util.List;
  * 菜单权限表 Mapper 接口
  * </p>
  *
- * @author test
+ * @author JYF
  * @since 2019/2/1
  */
 @Mapper

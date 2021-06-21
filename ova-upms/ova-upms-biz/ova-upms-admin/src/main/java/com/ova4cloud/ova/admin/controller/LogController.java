@@ -33,7 +33,7 @@ import javax.validation.Valid;
  * 日志表 前端控制器
  * </p>
  *
- * @author test
+ * @author JYF
  * @since 2019/2/1
  */
 @RestController

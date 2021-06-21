@@ -22,7 +22,7 @@ import com.ova4cloud.ova.common.core.util.R;
 /**
  * 字典项
  *
- * @author test
+ * @author JYF
  * @date 2019/03/19
  */
 public interface SysDictItemService extends IService<SysDictItem> {
