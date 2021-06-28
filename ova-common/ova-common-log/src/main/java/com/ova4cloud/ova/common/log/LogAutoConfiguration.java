@@ -27,7 +27,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 
 /**
  * @author JYF
- * @date 2019/2/1 日志自动配置
+ * @date 2020/2/1 日志自动配置
  */
 @EnableAsync
 @RequiredArgsConstructor

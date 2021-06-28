@@ -26,6 +26,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import javax.validation.Valid;
 
 /**
@@ -34,7 +35,7 @@ import javax.validation.Valid;
  * </p>
  *
  * @author JYF
- * @since 2019/2/1
+ * @since 2020/2/1
  */
 @RestController
 @RequiredArgsConstructor

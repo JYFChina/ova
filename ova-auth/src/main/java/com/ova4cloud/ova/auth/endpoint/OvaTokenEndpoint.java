@@ -54,7 +54,7 @@ import java.util.Map;
 
 /**
  * @author JYF
- * @date 2019/2/1 删除token端点
+ * @date 2020/2/1 删除token端点
  */
 @Slf4j
 @RestController

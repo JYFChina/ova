@@ -27,7 +27,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author JYF
- * @date 2019/2/1 认证授权相关工具类
+ * @date 2020/2/1 认证授权相关工具类
  */
 @Slf4j
 @UtilityClass

@@ -34,7 +34,7 @@ import org.springframework.security.web.authentication.logout.LogoutSuccessHandl
 
 /**
  * @author JYF
- * @date 2019/2/1 认证相关配置
+ * @date 2020/2/1 认证相关配置
  */
 @Primary
 @Order(90)

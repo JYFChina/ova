@@ -45,7 +45,7 @@ import java.util.Map;
 
 /**
  * @author JYF
- * @date 2019/2/1 认证服务器配置
+ * @date 2020/2/1 认证服务器配置
  */
 @Configuration
 @RequiredArgsConstructor
