@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 ova4cloud Authors. All Rights Reserved.
+ * Copyright (c) 2021 ova4cloud Authors. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 
 /**
  * @author JYF
- * @date 2020-06-25
+ * @date 2021-06-25
  * <p>
  * 通过环境变量的形式注入 logging.file 自动维护 Spring Boot Admin Logger Viewer
  */

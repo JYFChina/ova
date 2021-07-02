@@ -16,7 +16,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 
 /**
  * @author JYF
- * @date 2020/10/2
+ * @date 2021/10/2
  * <p>
  * 网关swagger 配置类，仅在webflux 环境生效哦
  */

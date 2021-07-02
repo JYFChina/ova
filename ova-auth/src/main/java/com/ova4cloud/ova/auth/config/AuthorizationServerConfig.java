@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 Ova4cloud Authors. All Rights Reserved.
+ * Copyright (c) 2021 Ova4cloud Authors. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -45,7 +45,7 @@ import java.util.Map;
 
 /**
  * @author JYF
- * @date 2020/2/1 认证服务器配置
+ * @date 2021/2/1 认证服务器配置
  */
 @Configuration
 @RequiredArgsConstructor

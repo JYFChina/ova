@@ -5,7 +5,7 @@ import org.springframework.web.reactive.config.WebFluxConfigurer;
 
 /**
  * @author JYF
- * @date 2020/10/2
+ * @date 2021/10/2
  * <p>
  * webflux 网关 swagger 资源路径配置
  */

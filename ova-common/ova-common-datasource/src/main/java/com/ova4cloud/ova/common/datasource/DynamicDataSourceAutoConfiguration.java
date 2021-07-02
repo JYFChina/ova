@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 ova4cloud Authors. All Rights Reserved.
+ * Copyright (c) 2021 ova4cloud Authors. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,7 +31,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @author JYF
- * @date 2020-02-06
+ * @date 2021-02-06
  * <p>
  * 动态数据源切换配置
  */
