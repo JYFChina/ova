@@ -29,7 +29,7 @@ import java.util.Collection;
 
 /**
  * @author JYF
- * @date 2019/2/1 接口权限判断工具
+ * @date 2021/2/1 接口权限判断工具
  */
 @Slf4j
 @Component("pms")

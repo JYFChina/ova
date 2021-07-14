@@ -23,7 +23,7 @@ import org.springframework.security.core.AuthenticationException;
 
 /**
  * @author JYF
- * @date 2019/2/1 认证失败事件处理器
+ * @date 2021/2/1 认证失败事件处理器
  */
 public abstract class AbstractAuthenticationFailureEvenHandler
 		implements ApplicationListener<AbstractAuthenticationFailureEvent> {

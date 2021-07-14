@@ -29,7 +29,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 /**
  * @author JYF
- * @date 2019/2/1 Redis 配置类
+ * @date 2021/2/1 Redis 配置类
  */
 @EnableCaching
 @Configuration(proxyBeanMethods = false)

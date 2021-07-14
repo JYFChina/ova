@@ -22,7 +22,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @author JYF
- * @date 2019/2/1 RestTemplate
+ * @date 2021/2/1 RestTemplate
  */
 @Configuration(proxyBeanMethods = false)
 public class RestTemplateConfiguration {

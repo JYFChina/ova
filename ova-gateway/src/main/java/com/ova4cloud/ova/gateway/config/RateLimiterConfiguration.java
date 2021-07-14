@@ -23,7 +23,7 @@ import reactor.core.publisher.Mono;
 
 /**
  * @author JYF
- * @date 2019/2/1 路由限流配置
+ * @date 2021/2/1 路由限流配置
  */
 @Configuration
 public class RateLimiterConfiguration {

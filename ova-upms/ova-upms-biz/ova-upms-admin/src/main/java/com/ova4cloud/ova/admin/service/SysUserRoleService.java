@@ -25,7 +25,7 @@ import com.ova4cloud.ova.admin.api.entity.SysUserRole;
  * </p>
  *
  * @author JYF
- * @since 2019/2/1
+ * @since 2021/2/1
  */
 public interface SysUserRoleService extends IService<SysUserRole> {
 

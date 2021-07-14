@@ -25,7 +25,7 @@ import org.springframework.core.type.AnnotationMetadata;
 
 /**
  * @author JYF
- * @date 2019/03/08
+ * @date 2021/03/08
  */
 @Slf4j
 public class OvaSecurityBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar {

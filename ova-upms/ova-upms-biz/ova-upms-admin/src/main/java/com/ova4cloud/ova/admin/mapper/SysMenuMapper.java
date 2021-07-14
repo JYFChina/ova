@@ -29,7 +29,7 @@ import java.util.List;
  * </p>
  *
  * @author JYF
- * @since 2019/2/1
+ * @since 2021/2/1
  */
 @Mapper
 public interface SysMenuMapper extends BaseMapper<SysMenu> {

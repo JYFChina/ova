@@ -23,7 +23,7 @@ import java.io.Serializable;
 
 /**
  * @author JYF
- * @date 2019/2/1
+ * @date 2021/2/1
  * <p>
  * commit('SET_ROLES', data) commit('SET_NAME', data) commit('SET_AVATAR', data)
  * commit('SET_INTRODUCTION', data) commit('SET_PERMISSIONS', data)

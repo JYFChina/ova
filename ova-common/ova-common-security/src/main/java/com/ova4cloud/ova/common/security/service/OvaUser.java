@@ -25,7 +25,7 @@ import java.util.Collection;
 
 /**
  * @author JYF
- * @date 2019/2/1 扩展用户信息
+ * @date 2021/2/1 扩展用户信息
  */
 public class OvaUser extends User {
 

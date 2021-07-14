@@ -22,7 +22,7 @@ import java.lang.annotation.*;
 
 /**
  * @author JYF
- * @date 2019/2/1
+ * @date 2021/2/1
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

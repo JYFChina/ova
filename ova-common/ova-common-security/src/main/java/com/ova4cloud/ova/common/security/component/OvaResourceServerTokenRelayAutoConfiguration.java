@@ -33,7 +33,7 @@ import java.lang.annotation.*;
 
 /**
  * @author JYF
- * @date 2019/2/1 注入AccessTokenContextRelay 解决feign 传递token 为空问题
+ * @date 2021/2/1 注入AccessTokenContextRelay 解决feign 传递token 为空问题
  */
 @Configuration
 @AutoConfigureAfter(OAuth2AutoConfiguration.class)

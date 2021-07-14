@@ -24,7 +24,7 @@ import java.time.LocalDateTime;
 
 /**
  * @author JYF
- * @date 2019/2/1
+ * @date 2021/2/1
  */
 @Data
 public class ImageCode implements Serializable {

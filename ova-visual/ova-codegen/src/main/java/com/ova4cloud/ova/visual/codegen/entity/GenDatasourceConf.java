@@ -28,7 +28,7 @@ import java.time.LocalDateTime;
  * 数据源表
  *
  * @author JYF
- * @date 2019-03-31 16:00:20
+ * @date 2021-03-31 16:00:20
  */
 @Data
 @TableName("gen_datasource_conf")

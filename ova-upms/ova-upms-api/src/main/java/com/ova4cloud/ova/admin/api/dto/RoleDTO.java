@@ -22,7 +22,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * @author JYF
- * @date 2019/2/1 角色Dto
+ * @date 2021/2/1 角色Dto
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

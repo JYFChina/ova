@@ -1,6 +1,6 @@
 /*
  *
- *  *  Copyright (c) 2019-2020, 冷冷 (wangiegie@gmail.com).
+ *  *  Copyright (c) 2021-2020, 冷冷 (wangiegie@gmail.com).
  *  *  <p>
  *  *  Licensed under the GNU Lesser General Public License 3.0 (the "License");
  *  *  you may not use this file except in compliance with the License.
@@ -38,7 +38,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author JYF
- * @date 2019-06-24
+ * @date 2021-06-24
  * <p>
  * 解决Mybatis Plus Order By SQL注入问题
  */

@@ -36,7 +36,7 @@ import org.springframework.web.HttpRequestMethodNotSupportedException;
 
 /**
  * @author JYF
- * @date 2019/2/1 异常处理,重写oauth 默认实现
+ * @date 2021/2/1 异常处理,重写oauth 默认实现
  */
 @Slf4j
 public class OvaWebResponseExceptionTranslator implements WebResponseExceptionTranslator {

@@ -23,7 +23,7 @@ import org.springframework.security.core.Authentication;
 
 /**
  * @author JYF
- * @date 2019/2/1 认证成功事件处理器
+ * @date 2021/2/1 认证成功事件处理器
  */
 public abstract class AbstractAuthenticationSuccessEventHandler
 		implements ApplicationListener<AuthenticationSuccessEvent> {
